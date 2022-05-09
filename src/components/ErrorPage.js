@@ -20,7 +20,7 @@ function ErrorPage() {
           alt="ngiwi"
           className="mx-auto w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] md:w-[550px] md:h-[550px] lg:w-[650px] lg:h-[650px] xl:w-[750px] xl:h-[750px] shadow-xl shadow-rose-300 rounded-2xl"
         />
-        <Link to="/UnityForBBM">
+        <Link to="/UnityForBBM/">
           <button className="flex w-[150px] h-[100px] mx-auto shadow-xl rounded-xl bg-rose-500 hover:scale-110 shadow-rose-900 sm:w-[250px] sm:h-[100px] items-center justify-center">
             <h1 className="text-xl font-semibold font-Mont sm:text-3xl">
               TANGINA KA

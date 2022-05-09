@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <nav>
-        <Link to="/UnityForBBM">
+        <Link to="/UnityForBBM/">
           <Navigation />
         </Link>
       </nav>
