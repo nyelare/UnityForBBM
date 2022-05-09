@@ -7,7 +7,7 @@ function Plan() {
   return (
     <motion.div
       className="h-full max-w-[1200px] mx-auto container"
-      initial={{ opacity: 1}}
+      initial={{ opacity: 1 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
@@ -22,7 +22,7 @@ function Plan() {
               key={key}
               className="text-center duration-200 ease-in hover:scale-125"
             >
-              <Link to="/errorpage">
+              <Link to="/UnityForBBM/errorpage">
                 <img
                   src={data.image}
                   alt={data.alt}

@@ -10,9 +10,9 @@ function AnimatedRoutes() {
   return (
     <AnimatePresence>
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Plan />}></Route>
-        <Route path="/errorpage" element={<ErrorPage />}></Route>
-        <Route path="/" element={<Navigation />}></Route>
+        <Route path="/UnityForBBM/" element={<Plan />}></Route>
+        <Route path="/UnityForBBM/errorpage" element={<ErrorPage />}></Route>
+        <Route path="/UnityForBBM/" element={<Navigation />}></Route>
       </Routes>
     </AnimatePresence>
   );
