@@ -5,12 +5,7 @@ import { motion } from "framer-motion";
 
 function Plan() {
   return (
-    <motion.div
-      className="h-full max-w-[1200px] mx-auto container"
-      initial={{ opacity: 1 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-    >
+    <div className="h-full max-w-[1200px] mx-auto container">
       <h1 className="p-8 text-4xl font-bold text-center text-red-500 font-Mont">
         Plano para sa Lahat
       </h1>
@@ -22,7 +17,7 @@ function Plan() {
               key={key}
               className="text-center duration-200 ease-in hover:scale-125"
             >
-              <Link to="/UnityForBBM/errorpage">
+              <Link to="/errorpage">
                 <img
                   src={data.image}
                   alt={data.alt}
@@ -36,7 +31,7 @@ function Plan() {
           );
         })}
       </div>
-    </motion.div>
+    </div>
   );
 }
 
