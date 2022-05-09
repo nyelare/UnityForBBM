@@ -7,7 +7,7 @@ function Plan() {
   return (
     <motion.div
       className="h-full max-w-[1200px] mx-auto container"
-      initial={{ opacity: 0}}
+      initial={{ opacity: 1}}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
