@@ -9,13 +9,13 @@ function App() {
   return (
     <Router>
       <nav>
-        <Link to="/">
+        <Link to="/home">
           <Navigation />
+          <Plan />
         </Link>
       </nav>
       <Routes>
         <Route>
-          <Route path="/" element={<Plan />}></Route>
           <Route path="/errorpage" element={<ErrorPage />}></Route>
         </Route>
       </Routes>
