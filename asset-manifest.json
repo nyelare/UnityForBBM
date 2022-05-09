@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/UnityForBBM/static/css/main.1dabc909.css",
+    "main.js": "/UnityForBBM/static/js/main.ed2d547a.js",
+    "static/media/fubbm.jpg": "/UnityForBBM/static/media/fubbm.c968f4895e6dd7a0689e.jpg",
+    "static/media/bbm-logo-red.webp": "/UnityForBBM/static/media/bbm-logo-red.b32950e43bb4c1cfd846.webp",
+    "index.html": "/UnityForBBM/index.html",
+    "main.1dabc909.css.map": "/UnityForBBM/static/css/main.1dabc909.css.map",
+    "main.ed2d547a.js.map": "/UnityForBBM/static/js/main.ed2d547a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1dabc909.css",
+    "static/js/main.ed2d547a.js"
+  ]
+}
